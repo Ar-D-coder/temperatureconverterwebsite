@@ -1,0 +1,90 @@
+
+
+/* Reset some default styles */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  background-image: url('clouds.webp') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.container {
+  max-width: 50%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgb(193 198 200);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(2, 2, 2, 0.1);
+  text-align: center;
+  background-image: url('sunshine.webp') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50%;
+
+
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  color: #007bff;
+  font-size: 24px;
+}
+
+.converter {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #b4b9bb;
+}
+
+.input, .select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 3px;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color:#007bff ;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animated {
+  animation: fadeIn 1s ease;
+}
